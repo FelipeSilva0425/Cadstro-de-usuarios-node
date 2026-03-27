@@ -1,74 +1,53 @@
-🚀 Sistema de Cadastro de Usuários (Node.js)
-
-Este projeto consiste no desenvolvimento de um sistema completo de cadastro de usuários utilizando Node.js no backend, com integração a banco de dados MongoDB e simulação de requisições via Thunder Client.
-
-A proposta é construir a aplicação do absoluto zero, com foco em aprendizado prático de conceitos fundamentais de APIs REST, estrutura de backend e futura integração com frontend.
+🚀 Sistema de Cadastro de Usuários - API REST
 
 📌 Sobre o Projeto
 
-O sistema será responsável por gerenciar usuários, permitindo:
+Este projeto é uma API RESTful de cadastro de usuários, desenvolvida com Node.js, com o objetivo de praticar e consolidar conceitos fundamentais de desenvolvimento backend.
 
-Criar novos usuários
-Listar usuários cadastrados
-Atualizar informações
-Deletar registros
+A aplicação permite realizar operações completas de CRUD (Create, Read, Update, Delete), utilizando banco de dados MongoDB e testes de requisições com Thunder Client.
 
-A aplicação segue o padrão RESTful, utilizando as principais operações HTTP.
+🧠 Objetivo
 
-Além disso, o projeto foi pensado de forma escalável, onde posteriormente será desenvolvido um frontend que irá consumir essa API, tornando o sistema completo.
+Construir uma aplicação do absoluto zero, simulando um ambiente real de backend, focando em:
 
-🧠 Conceito do Projeto
+Estrutura profissional de projeto
+Manipulação de dados com banco NoSQL
+Criação de rotas REST
+Boas práticas de desenvolvimento
+🏗️ Como o Projeto Foi Planejado
 
-O projeto foi desenhado com base em boas práticas de desenvolvimento backend:
+O sistema foi projetado seguindo uma arquitetura simples, porém escalável:
 
-Estrutura organizada por responsabilidades
-Separação de rotas, controllers e conexão com banco
-Uso de banco NoSQL para flexibilidade de dados
+Separação de responsabilidades (rotas, controllers, models)
+Uso de Express para gerenciamento de rotas
+Integração com MongoDB via Mongoose
 Simulação de requisições reais com Thunder Client
 
-Mesmo sendo um projeto simples, ele é extremamente importante para consolidar a base de qualquer desenvolvedor backend.
+Além disso, o projeto já está preparado para evolução futura, onde será desenvolvido um frontend que consumirá essa API.
 
 ⚙️ Tecnologias Utilizadas
 Node.js
 Express.js
 MongoDB
 Mongoose
-Thunder Client (VS Code)
+Thunder Client
+JavaScript
 🔗 Rotas da API
-Método	Rota	Descrição
-GET	/usuarios	Listar todos os usuários
-POST	/usuarios	Criar um novo usuário
-PUT	/usuarios/:id	Atualizar um usuário
-DELETE	/usuarios/:id	Deletar um usuário
+Método	Endpoint	Descrição
+GET	/usuarios	Lista todos os usuários
+POST	/usuarios	Cria um novo usuário
+PUT	/usuarios/:id	Atualiza um usuário
+DELETE	/usuarios/:id	Remove um usuário
 🧪 Testes da API
 
-As requisições serão testadas utilizando:
+As requisições foram testadas utilizando:
 
 Thunder Client (extensão do VS Code)
 
-Simulando um ambiente real de consumo de API.
+Simulando chamadas reais de um frontend consumindo a API.
 
-🌐 Futuro do Projeto
-
-O projeto terá uma segunda etapa:
-
-Desenvolvimento do frontend
-Integração com a API criada
-Interface para cadastro e gerenciamento de usuários
-🚀 Deploy
-
-🔗 Link do deploy do backend:
-👉 (coloque aqui o link do seu deploy)
-
-📸 Demonstração do Projeto
-🖥️ Backend funcionando
-
-🧪 Testes no Thunder Client
-
-📊 Banco de Dados (MongoDB)
-
-📁 Estrutura do Projeto (exemplo)
-📦 projeto
+📁 Estrutura do Projeto
+📦 user-register-api
  ┣ 📂 src
  ┃ ┣ 📂 controllers
  ┃ ┣ 📂 models
@@ -76,25 +55,69 @@ Interface para cadastro e gerenciamento de usuários
  ┃ ┗ 📜 server.js
  ┣ 📜 package.json
  ┗ 📜 README.md
-🏷️ Tags
+🚀 Como Rodar o Projeto
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
+# Acesse a pasta
+cd seu-repositorio
+
+# Instale as dependências
+npm install
+
+# Rode o servidor
+npm run dev
+🌐 Deploy
+
+🔗 Backend em produção:
+👉 COLE AQUI O LINK DO SEU DEPLOY
+
+📸 Demonstração
+🖥️ API rodando
+
+🧪 Testes no Thunder Client
+
+📊 Banco de Dados (MongoDB)
+
+🔮 Próximas Etapas
+Desenvolvimento do Frontend
+Integração com a API
+Interface para cadastro de usuários
+Sistema completo Full Stack
+🏷️ Tags
 nodejs
 javascript
 express
 mongodb
 mongoose
 api-rest
-backend
 crud
-thunder-client
+backend
 fullstack
 web-development
+thunder-client
 developer
+💡 Aprendizados
 
-💡 Considerações Finais
+Criar um projeto do zero, mesmo que simples, é um dos maiores desafios no início da jornada como desenvolvedor.
 
-Desenvolver um sistema, mesmo que simples, do zero é um grande desafio. Esse tipo de projeto ajuda a entender na prática como funciona o fluxo de dados, requisições HTTP e integração com banco de dados.
+Esse projeto reforça:
 
-Esse é um passo essencial para evoluir como desenvolvedor e construir aplicações cada vez mais completas.
+Lógica de backend
+Estrutura de APIs
+Integração com banco de dados
+Pensamento de sistema real
+📌 Autor
 
-Se quiser, posso também montar um README ainda mais avançado (nível portfólio) com badges,
+Desenvolvido por Felipe Silva 🚀
+
+⭐ Contribuição
+
+Se quiser contribuir:
+
+Faça um fork
+Crie uma branch
+Envie um pull request
+📜 Licença
+
+Este projeto está sob a licença MIT.
