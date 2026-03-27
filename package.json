@@ -1,0 +1,15 @@
+{
+  "name": "Cadastros-Node",
+  "version": "1.0.0",
+  "description": "Cadastro-usuarios-node ",
+  "type": "module",
+  "license": "ISC",
+  "author": "Felipe Silva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
